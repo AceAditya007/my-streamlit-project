@@ -42,7 +42,7 @@ model = pickle.load(open('model.pkl', 'rb'))
 
 # Streamlit UI
 st.title("Email/Spam Classifier")
-
+st.caption("Developed by Aditya Sharma")
 input_sms = st.text_area("Enter the message")
 
 if st.button("Predict"):
